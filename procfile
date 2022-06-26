@@ -1,1 +1,1 @@
-worker: python manage.py
+web: gunicorn medo.wsgi --log-file -
